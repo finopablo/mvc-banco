@@ -33,7 +33,7 @@
         <version>2.7</version>
         <configuration>
           <check>
-            <haltOnFailure>true</haltOnFailure>
+            <haltOnFailure>false</haltOnFailure>
             <!-- Validacion por clase-->
             <!--<lineRate>80</lineRate>
             <branchRate>80</branchRate>-->
