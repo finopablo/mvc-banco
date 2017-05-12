@@ -27,7 +27,7 @@ public class Banco {
             Movimiento m = b.addMovimiento(999.36, new Date(), cu);
             Cuenta cuenta = b.getCuenta("141414", true);
 
-            System.out.println(cuenta);
+            System.out.println("HOLA :" + cuenta);
         }
 
         public Cliente addCliente(String description, String cuit,TipoCliente tipoCliente) {
